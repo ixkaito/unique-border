@@ -24,6 +24,8 @@ ul {
 }
 
 .list > li {
+	border: 2px solid #000;
 	float: left;
+	position: relative;
 	width: 25%;
 }
