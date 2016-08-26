@@ -33,6 +33,7 @@ ul {
 	margin: 0 -2px -2px 0;
 	position: relative;
 	width: 25%;
+	z-index: 0;
 }
 
 .list > li:before,
@@ -40,6 +41,7 @@ ul {
 	background: #fff;
 	content: "";
 	position: absolute;
+	z-index: -1;
 }
 
 .list > li:before {
