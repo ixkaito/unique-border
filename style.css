@@ -34,3 +34,24 @@ ul {
 	position: relative;
 	width: 25%;
 }
+
+.list > li:before,
+.list > li:after {
+	background: #fff;
+	content: "";
+	position: absolute;
+}
+
+.list > li:before {
+	bottom: 20px;
+	left: -2px;
+	right: -2px;
+	top: 20px;
+}
+
+.list > li:after {
+	bottom: -2px;
+	left: 20px;
+	right: 20px;
+	top: -2px;
+}
